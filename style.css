@@ -1,0 +1,93 @@
+
+
+@font-face {
+  font-family: "TTLakes-Regular";
+  src: url("fonts/TTLakes-Regular.woff");
+}
+
+@font-face {
+  font-family: "TTLakes-Bold";
+  src: url(fonts/TTLakes-Bold.woff);
+}
+
+nav {
+    display:block;
+    width: 320px;
+    height:100vh;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+.nav_block {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.logo{
+    margin-left: 80px;
+    margin-top:20px;
+}
+
+
+.button1{
+    display: flex;
+    margin-left: 20px;
+    margin-top:-50px;
+      
+}
+
+.button2{
+    margin-left: 260px;
+    margin-top: -40px;
+    
+}
+
+.link{
+    font-size: 16px;
+  font-family: "TTLakes-Regular";
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+li{
+    padding:15px;
+    margin-left: -30px;
+    list-style-type: none
+}
+
+.block2{
+    display:flex;
+}
+
+.button3{
+    margin:10px;
+}
+
+.button4{
+margin:10px;
+}
+
+.button5{
+margin:10px;
+}
+
+
+.mail{
+ font-size: 16px;
+  font-family: "TTLakes-Regular";
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: -160px;
+}
+
+
+.contact2{
+    font-size: 24px;
+  font-family: "TTLakes-Bold";
+  font-weight: 500;
+  margin-top: 80px;
+  margin-left: -100px;
+}
